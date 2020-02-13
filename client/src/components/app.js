@@ -25,17 +25,24 @@ class App extends Component {
     let appBody
     // if (this.state.hasAuthenticated) {
     appBody = (
-      <Switch>
-        <Route exact path="/" component={ToDoListSelector} />
-        <Route exact path="/lists" component={ToDoListSelector} />
-        <Route exact path="/list" component={ToDoList} />
-        <Route exact path="/list/:listId" component={ToDoList} />
-        <Route exact path="/todo-example/" component={ToDoListSelector} />
-        <Route exact path="/todo-example" component={ToDoListSelector} />
-        <Route exact path="/todo-example/lists" component={ToDoListSelector} />
-        <Route exact path="/todo-example/list" component={ToDoList} />
-        <Route exact path="/todo-example/list/:listId" component={ToDoList} />
-      </Switch>
+      <span>
+        <p>Hi from CI/CD!</p>
+        <Switch>
+          <Route exact path="/" component={ToDoListSelector} />
+          <Route exact path="/lists" component={ToDoListSelector} />
+          <Route exact path="/list" component={ToDoList} />
+          <Route exact path="/list/:listId" component={ToDoList} />
+          <Route exact path="/todo-example/" component={ToDoListSelector} />
+          <Route exact path="/todo-example" component={ToDoListSelector} />
+          <Route
+            exact
+            path="/todo-example/lists"
+            component={ToDoListSelector}
+          />
+          <Route exact path="/todo-example/list" component={ToDoList} />
+          <Route exact path="/todo-example/list/:listId" component={ToDoList} />
+        </Switch>
+      </span>
     )
     // }
 
