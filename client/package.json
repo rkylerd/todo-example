@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
-  "homepage": "http://patrik-drean.github.io/todo-example",
+  "homepage": "http://rkylerd.github.io/todo-example",
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.19.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.10"
